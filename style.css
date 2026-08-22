@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+  
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+header {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 15px;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: gray;
+}
+img {
+    width: 400px;
+    border-radius: 10px;
+}
+nav {
+    background-color: white;
+    padding: 15px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav div {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 120px;
+    resize: vertical;
+}
+
+form button {
+    width: 100%;
+}
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#om-oss {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.service {
+    background-color: white;
+    padding: 25px;
+    margin: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 250px;
+    vertical-align: top;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+#tjanster {
+    text-align: center;
+    margin: 60px auto;
+}
+
+#tjanster h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.service {
+    transition: transform 0.2s ease;
+}
+
+.service:hover {
+    transform: translateY(-5px);
+}
+#kontakt {
+    max-width: 800px;
+    margin: 60px auto;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#kontakt h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+#om-oss img {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 25px;
+    border-radius: 12px;
+}
