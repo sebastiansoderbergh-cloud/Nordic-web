@@ -3,12 +3,12 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>Nordic Web</title>
+    <title>Icy webs</title>
 </head>
 
 <body>
 <nav>
-    <h2>Nordic Web</h2>
+    <h2>Icy webs</h2>
 
     <div>
         <a href="#">Hem</a>
@@ -25,47 +25,107 @@
 </section>
   
    <section id="om-oss">
-    <h2>Om Nordic Web</h2>
+    <h2>Om Ice webs</h2>
     <p>
         Vi hjälper små företag att få moderna och professionella hemsidor
         som fungerar på både dator och mobil.
 
-        <img src="images/bild.jpg" alt="Bild på företaget">
+        <img src="images/bild.jpg.png" alt="Bild på företaget">
     </p>
 </section>
         <section id="tjanster">
     <h2>Våra tjänster</h2>
-
-   <div class="service">
+<div class="service">
+    <div class="service-icon">🌐</div>
     <h3>Hemsidor</h3>
     <p>Vi skapar moderna och enkla hemsidor.</p>
 </div>
 
 <div class="service">
+    <div class="service-icon">🎨</div>
     <h3>Design</h3>
     <p>Vi gör hemsidor som ser snygga och professionella ut.</p>
 </div>
 
 <div class="service">
+    <div class="service-icon">🛠️</div>
     <h3>Support</h3>
     <p>Vi hjälper till med uppdateringar och ändringar.</p>
 </div>
+
+<section id="why-us">
+    <h2>Varför välja Icy Webs?</h2>
+
+    <div class="stats">
+        <div class="stat-card">
+            <h3>⚡</h3>
+            <h4>Snabba hemsidor</h4>
+            <p>Optimerade för att ladda snabbt på mobil och dator.</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>📱</h3>
+            <h4>Mobilanpassade</h4>
+            <p>Ser bra ut på alla skärmstorlekar.</p>
+        </div>
+
+        <div class="stat-card">
+            <h3>🎯</h3>
+            <h4>Modern design</h4>
+            <p>En stilren design som passar företag.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h2>Våra projekt</h2>
+    <p>Här är några exempel på hemsidor vi kan skapa.</p>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <div class="project-image">🌐</div>
+            <h3>Företagssida</h3>
+            <p>En modern hemsida för ett lokalt företag.</p>
+           <a href="#">Se projekt</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">🍔</div>
+            <h3>Restaurang</h3>
+            <p>En snygg hemsida med meny och kontaktinformation.</p>
+            <a href="restaurang.html">Se projekt</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">💈</div>
+            <h3>Barbershop</h3>
+            <p>En modern sida för en frisör eller barbershop.</p>
+            <a href="#">Se projekt</a>
+        </div>
+
+    </div>
 </section>
 
 <section id="kontakt">
     <h2>Kontakta oss</h2>
     <p>Har du några frågor? Hör gärna av dig</p>
 
-    <form>
-        <input type="text" placeholder="Ditt namn">
-        <input type="email" placeholder="Din email">
-        <textarea placeholder="Ditt meddelande"></textarea>
+   <form id="contact-form">
+       <input type="text" placeholder="Ditt namn" required>
+<input type="email" placeholder="Din email" required>
+<textarea placeholder="Ditt meddelande" required></textarea>
         <button type="submit">Skicka</button>
     </form>
+    <p id="success-message">Tack för ditt meddelande!</p>
 
 </section>
 
 <script src="script.js"></script>
-
+<footer>
+    <h3>Icy Webs</h3>
+    <p>Vi bygger moderna hemsidor för företag.</p>
+    <p>© 2026 Icy Webs</p>
+</footer>
 </body>
 </html>

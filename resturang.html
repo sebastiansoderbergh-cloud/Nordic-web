@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Nordic Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <nav>
+    <h2>Nordic Restaurant</h2>
+
+    <div>
+        <a href="index.html">Hem</a>
+        <a href="#menu">Meny</a>
+        <a href="#contact">Kontakt</a>
+    </div>
+</nav>
+
+<section class="restaurant-info">
+
+    <div class="info-card">
+        <h3>📍 Hitta oss</h3>
+        <p>Storgatan 12</p>
+        <p>Göteborg</p>
+    </div>
+
+    <div class="info-card">
+        <h3>🕒 Öppettider</h3>
+        <p>Mån-Fre: 11:00-22:00</p>
+        <p>Lör-Sön: 12:00-23:00</p>
+    </div>
+
+    <div class="info-card">
+        <h3>📞 Kontakt</h3>
+        <p>031-123 45 67</p>
+        <p>info@nordicrestaurant.se</p>
+    </div>
+
+</section>
+
+  <section class="restaurant-hero" style="background-image: url('images/restaurant.jpg');">
+        <h1>Välkommen till Nordic Restaurant</h1>
+        <p>God mat och en trevlig atmosfär</p>
+        <a href="#menu">Se vår meny</a>
+       <a href="#booking" class="book-button">Boka bord</a>
+    </section>
+<section class="restaurant-about">
+    <h2>Om oss</h2>
+    <p>
+        På Nordic Restaurant serverar vi god mat gjord med noggrant utvalda råvaror.
+        Vårt mål är att ge våra gäster en riktigt bra matupplevelse i en trevlig miljö.
+    </p>
+</section>
+    <section id="menu">
+        <h2>Vår meny</h2>
+
+        <div class="menu-container">
+
+          <div class="menu-card">
+    <img src="images/burger.jpg" alt="Nordic Burger">
+    <h3>Nordic Burger</h3>
+    <p>Saftig burgare med pommes</p>
+    <strong>129 kr</strong>
+</div>
+
+<div class="menu-card">
+    <img src="images/chicken.jpg" alt="Grillad kyckling">
+    <h3>Grillad Kyckling</h3>
+    <p>Grillad kyckling med potatis och sallad</p>
+    <strong>149 kr</strong>
+</div>
+
+<div class="menu-card">
+    <img src="images/pasta.jpg" alt="Vegetarisk pasta">
+    <h3>Vegetarisk Pasta</h3>
+    <p>Krämig pasta med färska grönsaker</p>
+    <strong>139 kr</strong>
+</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakta oss</h2>
+        <p>Välkommen att besöka oss</p>
+    </section>
+<section id="booking">
+    <h2>Boka bord</h2>
+
+    <form id="booking-form">
+        <input type="text" placeholder="Ditt namn" required>
+        <input type="email" placeholder="Din email" required>
+        <input type="date" required>
+        <input type="time" required>
+        <input type="number" placeholder="Antal personer" min="1" required>
+
+        <button type="submit">Boka</button>
+    </form>
+
+    <p id="booking-message">Din bokningsförfrågan är skickad!</p>
+</section>
+</body>
+</html>
